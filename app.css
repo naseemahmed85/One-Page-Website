@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 341);
+    padding: .5rem 4rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav{
+    gap: 2rem;
+    display: flex;
+    text-wrap: nowrap;
+}
+
+#dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#dropdown-contant{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 4rem;
+    
+}
+
+#signup{
+    text-wrap: nowrap;
+    background-color:  black;
+    padding: .5rem;
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    color: white;
+}
+
+button{
+    text-wrap: nowrap;
+}
